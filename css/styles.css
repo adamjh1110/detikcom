@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header_news {
+  font-size: 18px;
+  color: #21409A;
+  margin: 0;
+  padding-left: 8px;
+}
+
+.news_list {
+  width: 694px;
+}
+
+.news_item {
+  display: flex;
+  padding: 16px 8px;
+}
+
+.news_item:hover {
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 216px;
+  height: 122px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.title:hover {
+  color: #21409A;
+}
+
+.info {
+  padding-left: 16px;
+}
+
+.info a {
+  text-decoration: none;
+} 
+
+.kanal {
+  color: #EF662F;
+}
+
+.updated_time {
+  color: #666666;
+}
+
+
+/* halaman detail */
+
+.detail {
+  max-width: 800px;
+}
+
+.dtl_title {
+  color: #21409A;
+  font-size: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.dtl_writer {
+  text-align: center;
+  color: #EF662F;
+}
+
+.dtl_updated_time {
+  text-align: center;
+  color: #666666;
+  padding: 16px;
+}
+
+.content {
+  padding: 0 16px;
+}
+
+.recommend_title {
+  color: #21409A;
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+.coloum_media {
+  padding: 20px 18px;
+  display: flex;
+  
+}
+
+.media_box{
+  width: 180px;
+  padding-right: 16px;
+}
+
+.media_box a {
+  text-decoration: none;
+}
+
+.media_image{
+  width: 180px;
+  height: 90px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.media_image img {
+  width: 100%;
+}
+
+.media_text {
+  padding-top: 12px;
+  font-size: 14px;
+  color: #666666;
+  
+}
+.media_text:hover {
+  color: #21409A;
+}
+
+.coloum_media:hover {
+  cursor: pointer;
+}
+
